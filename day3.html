@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f6f8;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #0056b3;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .break {
+      background-color: #ffeeba;
+      font-weight: bold;
+      color: #856404;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Class Timetable</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>09:00 - 10:00</strong></td>
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Computer Science</td>
+        <td>History</td>
+      </tr>
+      <tr>
+        <td><strong>10:00 - 11:00</strong></td>
+        <td>Physics</td>
+        <td>Mathematics</td>
+        <td>Chemistry</td>
+        <td>English</td>
+        <td>Biology</td>
+      </tr>
+      <!-- Break Row -->
+      <tr>
+        <td><strong>11:00 - 11:30</strong></td>
+        <td colspan="5" class="break">BREAK</td>
+      </tr>
+      <tr>
+        <td><strong>11:30 - 12:30</strong></td>
+        <td>Chemistry</td>
+        <td>Biology</td>
+        <td>Mathematics</td>
+        <td>History</td>
+        <td>Computer Science</td>
+      </tr>
+      <tr>
+        <td><strong>12:30 - 01:30</strong></td>
+        <td>Computer Science</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Mathematics</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
